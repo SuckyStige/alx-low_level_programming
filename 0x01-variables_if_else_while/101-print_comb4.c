@@ -13,15 +13,12 @@ int main(void)
 {
 int c;
 for (c = 0; c < 90; c++)
-
 putchar((c / 10) + '0');
 putchar((c % 10) + '0');
-}
 if (c != 89)
 {
 putchar(',');
 putchar(' ');
-}
 }
 putchar('\n');
 return (0);
