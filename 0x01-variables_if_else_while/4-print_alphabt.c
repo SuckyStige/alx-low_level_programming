@@ -19,6 +19,6 @@ for (low = 'a'; low <= 'z'; low++)
 if (low != e && low != q)
 putchar(low);
 }
-putchar("\n");
+printf("\n");
 return (0);
 }
