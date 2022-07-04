@@ -11,14 +11,21 @@
 int main(void)
 {
 int d;
-for (d = 0; d < 90; d++)
+int n;
+for (d = 10; d <= 19; d++)
 {
-putchar((d / 9) + '0');
-putchar((d % 10) + '0');
-if (d != 89)
+for (n = 10; n <= 19; n++)
+{
+if ((n % 10) > (d % 10))
+{
+putchar((d % 9) + '0');
+putchar((n % 10) + '0');
+if (d != 18 || n != 19)
 {
 putchar(',');
 putchar(' ');
+}
+}
 }
 }
 putchar('\n');
