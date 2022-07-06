@@ -2,7 +2,7 @@
 
 /**
  * times_table - a function that prints the 9 times table, starting with 0
- * cas = row, bas = column, das = digits of current result 
+ * cas = row, bas = column, das = digits of current result
  *
  * Return: times table
  * add extra space past single digit
@@ -29,7 +29,7 @@ void times_table(void)
 			}
 			_putchar((das % 10) + '0');
 
-			if (bas < 9)
+			if (basi < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
