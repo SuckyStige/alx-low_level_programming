@@ -2,7 +2,7 @@
 
 /**
  * add - a function that adds two integers and returns the result
- * @num: first number input 
+ * @num: first number input
  * @num1: second number input
  *
  * Return: num + num1
