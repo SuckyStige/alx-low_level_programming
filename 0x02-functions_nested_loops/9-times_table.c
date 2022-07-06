@@ -21,7 +21,7 @@ void times_table(void)
 			das = (tas1 * tas2);
 			if ((das / 10) > 0)
 			{
-				_putchar((das / 10) + '0')
+				_putchar((das / 10) + '0');
 			}
 			else
 			{
