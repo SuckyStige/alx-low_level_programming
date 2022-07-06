@@ -5,7 +5,7 @@
  * /10 allows seconds digit to rotate
  * for loop breaks before passing 24:00
  *
- * Return: 24 hour clok line by line 
+ * Return: 24 hours clock line by line
  */
 void jack_bauer(void)
 {
