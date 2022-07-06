@@ -2,23 +2,23 @@
 
 /**
  * times_table - a function that prints the 9 times table, starting with 0
- * tas1 = row, tas2 = column, das = digits of current result 
+ * cas = row, bas = column, das = digits of current result 
  *
  * Return: times table
  * add extra space past single digit
  */
 void times_table(void)
 {
-	int tas1, tas2, das;
+	int cas, bas, das;
 	
-	for (tas1 = 0; tas2 <= 9; tas1++)
+	for (cas = 0; cas <= 9; cas++)
 	{
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		for (tas2 = 1; tas2 <= 9; tas2++)
+		for (bas = 1; bas <= 9; bas++)
 		{
-			das = (tas1 * tas2);
+			das = (cas * bas);
 			if ((das / 10) > 0)
 			{
 				_putchar((das / 10) + '0');
@@ -29,7 +29,7 @@ void times_table(void)
 			}
 			_putchar((das % 10) + '0');
 
-			if (tas2 < 9)
+			if (bas < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
