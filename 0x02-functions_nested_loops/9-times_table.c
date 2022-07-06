@@ -10,7 +10,6 @@
 void times_table(void)
 {
 	int cas, bas, das;
-	
 	for (cas = 0; cas <= 9; cas++)
 	{
 		_putchar('0');
