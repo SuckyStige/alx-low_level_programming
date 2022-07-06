@@ -4,14 +4,13 @@
  * times_table - a function that prints the 9 times table, starting with 0
  * cas = row, bas = column, d = digits of current result
  *
- * Reture: times table 
+ * Return:times table
  * add extra space past single digit
  */
 void times_table(void)
 {
 	int cas, bas, das;
-	
-	for (cas = 0; cas <= 9; cas++)	
+	for(cas = 0; cas <= 9; cas++)	
 	{
 		_putchar('0');
 		_putchar(',');
