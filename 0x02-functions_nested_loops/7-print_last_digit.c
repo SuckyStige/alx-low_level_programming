@@ -6,13 +6,16 @@
  * Return: Always 0.
  */
 
-int print_last_digit(int num)
+int print_last_digit(int nod)
 {
-	int pwd;
-        num(98);
-       	num(0);
-       	pwd = num(-1024);
-	_putchar(num + pwd);
-        _putchar('\n');
-	return (0);
+	int pnd;
+
+	pnd = (nod % 10);
+
+	if (pnd < 0)
+	{
+		pnd = (-1 * pnd);
+	}
+	_putchar(pnd + '0');
+	return (pnd);
 }
