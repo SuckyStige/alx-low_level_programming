@@ -1,27 +1,20 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print the numbers since 0 up to 9
- * @q: q will be checked 
- * Description: Prints the numbers excluding 2 and 4
+ * print_most_numbers - prints
  *
- * Return: The numbers since 0 up to 9
+ * Return: void
  */
-void print_more_numbers(void)
+
+
+void print_most_numbers(void)
 {
-	int q = 0;
+	char c;
 
-	for (; q <= 9; q++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		if (q == 2 || x == 4)
-		{
-			continue;
-		}
-		else
-		{
-			_putchar(q + '0');
-		}
+		if (!(c == '2' || c == '4'))
+			_putchar(c);
 	}
-
 	_putchar('\n');
 }
