@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 
 /**
  * binary_to_uint - converts a binary number to unsigned int
@@ -27,8 +26,8 @@ unsigned int binary_to_uint(const char *b)
 }
 
 /**
- * check_valid_string - checks if a strin has only 0's and 1's
- * @b: strin to be checked
+ * check_valid_string - checks if a string has only 0's and 1's
+ * @b: string to be checked
  *
  * Return: 1 if string is valid, 0 otherwise
  */
